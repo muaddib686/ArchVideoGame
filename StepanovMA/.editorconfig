@@ -1,0 +1,27 @@
+# .editorconfig for Unity C# project
+# top-most EditorConfig file
+root = true
+
+# C# files
+[*.cs]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+charset = utf-8
+
+# Require this.
+# dotnet_style_qualification_for_field = true:warning
+# dotnet_style_qualification_for_method = true:warning
+dotnet_sort_system_directives_first = true
+
+# Braces: K&R style (not on new line)
+dotnet_style_braces_on_new_line_for_types = false:warning
+dotnet_style_braces_on_new_line_for_methods = false:warning
+dotnet_style_braces_on_new_line_for_properties = false:warning
+dotnet_style_braces_on_new_line_for_accessors = false:warning
+dotnet_style_braces_on_new_line_for_anonymous_methods = false:warning
+dotnet_style_braces_on_new_line_for_control_blocks = false:warning
+dotnet_style_braces_on_new_line_for_lambdas = false:warning
+
+# Optional: Unity C# conventions
+csharp_new_line_before_open_brace = none
